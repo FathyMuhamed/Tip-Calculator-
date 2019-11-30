@@ -1,0 +1,100 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("../image/cover.jpg") center center no-repeat;
+  color: #000;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  width: 370px;
+  margin: 16px auto;
+  padding: 35px;
+  background-color: #ffe3dc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container h1 {
+  font-family: cursive;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.container .calculator form {
+  text-align: left;
+}
+
+.container .calculator form label {
+  display: block;
+  margin: 22px 0;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.container .calculator form input,
+.container .calculator form select {
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.container .calculator form input[type="text"] {
+  width: 85px;
+}
+
+.container .calculator form button {
+  width: 50%;
+  margin: 10px auto;
+  display: block;
+  padding: 13px 10px;
+  background-color: #6e280c;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 18px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.container .calculator form button:hover {
+  background-color: #5f190e;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.container .calculator form button:active {
+  position: relative;
+  top: 1px;
+}
+
+.container .totalTip {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 25px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.container .totalTip:before {
+  content: "Tip amount";
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+.container .totalTip sup {
+  font-size: 24px;
+  top: -18px;
+}
+
+.container .totalTip small {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
